@@ -567,7 +567,7 @@ const SolutionSection = () => (
           d: "关注解决何时发、哪里看、怎么去等痛点问题。提供发射详情提前告知，最佳观礼位置推荐（如瑶光观礼台、淇水湾等），配合高德精准引流，甚至提供AR一键回放功能。",
           color: "blue",
           features: ["发射动态同步", "最佳观礼位推荐", "AR一键回放"],
-          screenshot: "/景区智能体.png"
+          screenshot: "景区智能体.png"
         },
         { 
           icon: GraduationCap, 
@@ -575,7 +575,7 @@ const SolutionSection = () => (
           d: "关注研学产品的精准服务。提供在线研学课预约，科普知识问答。运用AI生成照片、视频、游记等，形成社交激励与成就排行榜。",
           color: "indigo",
           features: ["在线研学课预约", "AI生成游记", "成就排行榜"],
-          screenshot: "/C端智能体.png"
+          screenshot: "C端智能体.png"
         },
         { 
           icon: Utensils, 
@@ -583,7 +583,7 @@ const SolutionSection = () => (
           d: "关注“餐饮+观礼”模式。作为文昌文化输出的重要一环，提供扫码点餐、老爸茶文化讲解，引导用户购买特产，实现淡旺季错峰消费，形成新的盈利增长点。",
           color: "orange",
           features: ["老爸茶文化讲解", "餐饮+观礼模式", "特产引导购买"],
-          screenshot: "/餐饮智能体.jpg"
+          screenshot: "餐饮智能体.jpg"
         },
         { 
           icon: Hotel, 
@@ -714,38 +714,38 @@ const CaseSection = () => (
               t: "景区智能体",
               icon: MapPin,
               features: ["智能导览与讲解", "票务分时预约", "客流预警引导"],
-              screenshot: "/景区智能体.png"
+              screenshot: "景区智能体.png"
             },
             {
               t: "酒店智能体",
               icon: Hotel,
               features: ["入住咨询与房型介绍", "智能推荐与周边服务", "客户关怀与满意度调查"],
-              screenshot: "/酒店智能体.jpg"
+              screenshot: "酒店智能体.jpg"
             },
             {
               t: "餐饮智能体",
               icon: Utensils,
               features: ["菜单推荐与口味偏好", "排队预约与在线取号", "优惠推送与食材溯源"],
-              screenshot: "/餐饮智能体.jpg"
+              screenshot: "餐饮智能体.jpg"
             },
             {
               t: "个人智能体",
               icon: Users,
               features: ["AI帮讲故事", "24h在线接待", "咨询秒回撮合"],
-              screenshot: "/个人智能体.png"
+              screenshot: "个人智能体.png"
             },
             {
               t: "诊所/药店智能体",
               icon: Radio,
               features: ["预约挂号与候诊提醒", "健康咨询与用药指导", "院内导航与位置指引"],
-              screenshot: "/2.png",
+              screenshot: "2.png",
               isHorizontal: true
             },
             {
               t: "B端工作台",
               icon: LayoutGrid,
               features: ["经营数据看板", "客户画像管理", "营销工具配置"],
-              screenshot: "/3.png"
+              screenshot: "3.png"
             }
           ].map((agent, idx) => (
             <div key={idx} className="bg-white rounded-[2.5rem] border border-slate-100 shadow-xl shadow-slate-200/50 p-10 flex flex-col items-center text-center transition-all hover:scale-[1.03] hover:shadow-2xl group">
