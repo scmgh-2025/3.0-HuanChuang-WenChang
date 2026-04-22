@@ -1,0 +1,9 @@
+{
+  "name": "华创云信 x 文昌文旅大模型运营方案",
+  "description": "华创云信与文昌市关于文旅大模型运营合作的汇报级专题网站",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "presentation",
+    "ai_agent_showcase"
+  ]
+}
