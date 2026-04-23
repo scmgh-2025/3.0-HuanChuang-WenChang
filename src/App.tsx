@@ -869,17 +869,6 @@ export default function App() {
       </main>
 
       <Footer />
-      
-      {/* Floating Action Button (Optional) */}
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        className="fixed bottom-8 right-8 z-[60]"
-      >
-        <button className="p-4 bg-blue-600 text-white rounded-full shadow-2xl shadow-blue-600/40 hover:scale-110 transition-transform">
-          <Globe2 size={24} />
-        </button>
-      </motion.div>
     </div>
   );
 }
